@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Dosis";
+}
+
+body {
+    background-color: #14213d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+.content {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5vh 5vw;
+}
+
+.personal-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.personal-info *{
+    margin: 0.8vh 1vw;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1vw;
+    width: 20vw;
+}
+
+.links a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links a:hover {
+    cursor: pointer;
+    color: #fca311;
+}
+
+#about-me {
+    display: flex;
+    justify-content: flex-start;
+    width: 80vw;
+    margin-top: 5vh;
+}
+
+#about-me .text-box {
+    display: flex;
+    flex-flow: column;
+    margin-left: 1vw;
+}
+
+.profile-picture {
+    border: solid 2px #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
+}
+
+#skills {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.all-skills {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 2vh 0;
+}
+
+.skill {
+    width: 8vw;
+    height: 8vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
+}
+
+.skill:hover {
+    box-shadow: 1px 1px 1px #000000, -1px -1px 1px #000000;
+}
+
+.skill p{
+    margin-bottom: 1vh;
+}
+
+#projects {
+    width: 80vw;
+}
+
+#recommendations {
+    width: 80vw;
+    margin: 5vh;
+}
+
+#all-recommendations {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 4vw;
+    flex-wrap: wrap;
+}
+
+.recommendation {
+    width: 20vw;
+    height: 30vh;
+    padding: 1vw;
+    min-width: 20vw;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    margin: 2vh .5vw;
+}
+
+#contact {
+    width: 80vw;
+}
+
+#contact textarea{
+    width: 80vw;
+    resize: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+footer .home-button {
+    margin-left: 1vw;
+}
+
+footer .personal-info {
+    display: flex;
+    flex-flow: column;
+    margin: 0
+}
+
+.popup {
+    width:400px;
+    height: 25vh;
+    background-color: #fca311;
+    border-radius: 3mm;
+    border-color: #fca311;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+  }
+  
+  .popup img {
+    padding-top: 3vh;
+  }
+  
+  .popup button {
+    background-color: #fff;
+    border: 1px solid #14213d;
+    color: #14213d;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 2vh;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%;
+  }
+  
+  .popup button:hover {
+    background-color: #fff; 
+    color: #14213d;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+  }
